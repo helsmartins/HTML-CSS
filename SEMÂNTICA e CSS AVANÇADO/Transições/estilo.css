@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.teste{
+    width: 150px;
+    height: 150px;
+    background-color: thistle;
+    margin: auto;
+    transition: 1s linear;
+}
+.teste:hover{
+    background-color: black;
+    width: 200px;
+}
+a{
+    color: black;
+    transition: 1s linear;
+}
+a:hover{
+    color: white;
+    background-color: red;
+}

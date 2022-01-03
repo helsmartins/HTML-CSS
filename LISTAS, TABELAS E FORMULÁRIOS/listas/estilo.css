@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(240, 241, 243);
+    margin: 0px;
+}
+/*.link{
+    color: #000000;
+    font-size:30px
+}
+.link:hover{
+    color: #00f; /*quando passar o mouse muda a cor*/
+/*{
+.link:visited{
+    color:#ff0000 ; /*muda a cor depois que visita a pagina*/
+
+p{
+
+    color: chartreuse;
+    font-family: 'Estonia';
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    /*font-family: arial;
+    line-height: 30px; 
+    text-shadow:0px 2px 3px rgb(236, 10, 56); /* sombra no texto*/
+}
+h1{
+    font-family: 'Estonia';
+}

@@ -1,0 +1,13 @@
+h1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.teste{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    background: linear-gradient(yellow, blue);
+    background: -moz-linear-gradient(yellow, blue); /*Proteções para funcionar no site do mozila*/
+    background: -o-linear-gradient(yellow, blue); /*Proteções para funcionar no site do opera*/
+    background: -webkit-linear-gradient(yellow, blue); /*Proteções para funcionar no site do safari*/
+}

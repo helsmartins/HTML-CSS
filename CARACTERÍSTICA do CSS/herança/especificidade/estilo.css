@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+.container{
+    width: calc(100% = 20px);
+    height: 100px;
+    background-color:#ccc ;
+    color: brown;
+    font-size: 30px;
+    border: 2px solid #000;
+}
+.container strong{
+    border: 2px solid #000; /*Quanto mais especificado o elemento no CSS for, maiores as chances dele ter seus estilos aplicados. */
+}

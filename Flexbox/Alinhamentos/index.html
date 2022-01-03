@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css"/>
+    <title>Alinhamentos</title>
+    <style type="text/css">
+        .container{
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: #555;
+            justify-content: space-around;
+            align-items: start;
+            
+        }
+        .container div{
+            
+            background-color: chartreuse;
+            margin: 10px;
+            padding: 10px;
+            font-size: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .container :hover{
+            background-color: crimson;
+        }
+        strong{
+            color: white;
+            background-color: red;
+            border: 2px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alinhamentos</h1>
+    Qual propriedade NÃO pertence ao grupo de propriedades que irá ao justify-content, no CSS3?<br/>
+    1space-around, 2space-between, <strong>3space-behind</strong>, 4space-evenly
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p>Qual a propriedade que utilizamos para alinhar todo conteúdo de uma div, no CSS3?</p>
+    align-content
+</body>
+</html>

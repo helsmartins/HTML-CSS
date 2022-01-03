@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #555;
+    min-height: 80px;
+}
+.container{
+    display: flex;
+    min-height: 500px;
+}
+aside{
+   background-color: #555;
+   width: 200px; 
+}
+main{
+    flex: 1;
+    background-color: #444;
+}
+footer{
+    background-color: #555;
+    min-height: 80px;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.busca{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 120px;
+    gap: 20px;
+    
+    
+}
+.topico-busca a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.busca a:hover{
+    border-bottom: 3px solid blue;
+    color: blue;
+}
+main{
+    border-top: 1px solid #999;
+}
+.secao-busca{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 120px;
+}
+h2, h3{
+    color: rgb(0, 68, 255);
+}
+ a{
+    text-decoration: none;
+    color: rgb(10, 207, 10);
+} 
+.menu a{
+    color: #555;
+}
+p{
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+

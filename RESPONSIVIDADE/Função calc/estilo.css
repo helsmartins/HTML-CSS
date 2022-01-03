@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: #444444;
+    width: calc(100% - 20px);
+    height: 200px;
+    
+}

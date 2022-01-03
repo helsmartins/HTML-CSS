@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css"/>
+    <title>tags Fildset e Legend</title>
+</head>
+<body>
+    <h1>Tags Fildset and Legend</h1>
+    <form method="post" action="blablabla.php" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="br"/> <!--hidden Deixa o input invisível para o usuário porém a informação do input vai normalmente como dado no formulário-->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome:<br/> 
+                <input type="text" name="name" required/> <!--a palavra reservada 'required' serve para validação de preenchimento do campo obrigatorio-->
+            </label>
+            <label><br/>
+                Sobrenome:<br/>
+                <input type="text" name="Lastname" required minlength="2"/> <!--'minLength' quantidade minima de caractere(requered é uma validação nativa do HTML )-->
+            </label><br>
+            <label>
+                Idade:<br/>
+                <input type="number" name="idade" step="2" min="18" max="80"/> <!--step a idade pula de 2 em 2-->
+            </label><br/>
+                Email:<br/>
+                <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de email">
+            <label><br/>
+                Foto:<br/>
+                <input type="file" name="Photo" accept="image/*"/> <!--sempre que colocar o inout file, tem q adicionar o enctype para que o servidor receba o arquivo todo ( imagem)-->
+                <!--tipo de input file é usado para recolher arquivos do usuário-->
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+        <label><br/>
+            Nome da Empresa:<br/>
+            <input type="text" name="companyname" required maxlength="50"/> <!--maxLength quantidade maxima de caractere-->
+        </label>
+        <label><br/>
+            Cargo na Empresa:<br/>
+            <input type="text" name="companyjobtitle" required/>
+        </label></fieldset>
+        <input type="submit" value="Cadastrar">
+    
+    </form>
+</body>
+</html>

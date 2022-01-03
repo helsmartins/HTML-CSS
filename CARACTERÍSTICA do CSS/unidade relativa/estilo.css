@@ -1,0 +1,42 @@
+html{
+    font-size: 20px;
+}
+body{
+    font-family:Arial solid 10px ;
+}
+.box{
+    font-size: 20px;
+}
+.box_interno{
+    width: 30em; 
+    height: 10em;
+    background-color: #999;
+    border: 2px solid black;
+}
+.rem{
+    font-size: 1rem;
+}
+.rem_interno{
+    width: 16rem;
+    height: 3rem;
+    background-color: #999;
+    border: 2px solid black;
+}
+.porcentagem{
+    font-size: 100%;
+}
+.porc_interno{
+    width: 50%;
+    height: 50%;
+    background-color: #999;
+    border: 2px solid black;
+}
+.viewport{
+    font-family: Arial;
+}
+.viewport_interno{
+    width: 60vh;
+    height: 30vh;
+    background-color: #999;
+    border: 2px solid black;
+}

@@ -1,0 +1,15 @@
+@media(aspect-ratio: 2/1){
+    body{
+        background-color: brown;
+    }
+}
+@media(min-aspect-ratio: 1/1){
+    body{
+        background-color: cadetblue;
+    }
+}
+@media(max-aspect-ratio: 3/2){
+    body{
+        background-color: black;
+    }
+}

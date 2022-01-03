@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css"/>
+    <title>Unidade RElativas</title>
+</head>
+<body>
+    <h1>Unidade Relativas</h1>
+    <div class="box">
+        Unidade de medida (em)
+        <div class="box_interno"> 
+            /*a unidade de medida ('em') esta atrelado ao font-size anterior ( ex: multiplica-se 10em * 40px=400px) serve para resposividade*/<br/><br/>
+             /*caso o box estiver com 2em e o anterior (pai[body]) a ele estiver com font-size de 20px o resultado é box com 400px e o box_interno fica com px*/
+        </div>
+    </div><br/>
+    <div class="rem">
+        Unidade de medida (rem)
+        <div class="rem_interno">
+            Todos os outros elementos devem ser descendentes desse elemento
+        </div>
+    </div><br/>
+    <div class="porcentagem">
+        Unidade Porcentagem (%)
+        <div class="porc_interno">
+            A unidade de porcentagem no CSS é relativa ao bloco onde o elemento está contido. É ótimo para imagens: aqui mostramos uma imagem que sempre terá 50% da largura de seu container.
+        </div>
+    </div><br/>
+    <div class="viewport">
+        Unidade relativa (viewport)
+        <div class="viewport_interno">
+            As unidades relativas vw (viewport width) e vh (viewport height) utilizam a largura e altura da viewport respectivamente. Com elas é possível atribuir a um elemento o tamanho (seja altura, seja largura) da viewport. Essa unidade de medida é muito parecida com a unidade relativa de porcentagem % .
+        </div>
+
+    </div>
+</body>
+</html>

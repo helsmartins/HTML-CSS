@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border: 1px;
+}
+
+thead {
+    background-color: #f00000 ;
+}
+tr{
+    border: 1px;
+    margin: 10px;
+}
+td, th{
+    padding: 1px;
+    border: 1px solid black;
+
+}
+tbody tr:hover{
+    background-color:rgb(221, 215, 215) ;
+
+}

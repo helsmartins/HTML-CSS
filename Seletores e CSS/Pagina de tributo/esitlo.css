@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #9999;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+    
+}
+.titulo-da-pagina{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-titulo-da-pagina{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999494;
+}
+.foto-ator{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 2px solid #dad5d5;
+    
+}
+img{
+    width: 225px;
+}
+figcaption{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    align-items: center;
+    padding: 10px 2px 5px 2px;
+    text-align: baseline;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747070;
+}
+.biografia{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 20px;
+    color: #747070;
+}
+.lista{
+    color: #747070;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.rodape{
+    color: #747070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+footer a{
+text-decoration: none;
+color: blue;
+}
+

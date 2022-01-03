@@ -1,0 +1,36 @@
+body{
+    display: flex;
+}
+div{
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+@media(orientation: landscape){
+    body{
+        flex-direction: row;
+    }
+}
+@media(orientation: portrait){
+    body{
+        flex-direction: column;
+    }
+}
+.verde{
+    background-color: #0a5f0a;
+    text-align: center;
+}
+.branco{
+    text-align: center;
+    
+}
+.vermelho{
+    background-color: #ff0000;
+    text-align: center;
+
+}
+img{
+    width: 150px;
+    height: 150px; 
+}

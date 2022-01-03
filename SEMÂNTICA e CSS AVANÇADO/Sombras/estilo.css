@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.teste{
+    width: 100px;
+    height: 100px;
+    background-color: #999;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 10px 5px 5px yellow;
+} 

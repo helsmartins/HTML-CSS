@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+.conteudo-prncipal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    padding-top: 100px;
+    
+}
+  img{
+    border-radius: 120px;
+    
+}
+.botao-pesquisa{
+    padding-top: 20px;
+}
+.botao-pesquisa input{
+    width: 350px;
+    height: 25px;
+    border-radius: 7px;  
+}
+.botao-pesquisa-google{
+    padding-top: 10px;
+}
+.box-pesquisa{
+    padding: 10px;
+    
+}
+.box-pesquisa input{
+    width: 150px;
+    height: 25px;
+    
+}
+.secao-final{
+    display: flex;
+    background-color: #CCC;
+    border-top:  2px solid #bbb;
+}
+.conteudo-final{
+    display: flex;
+    background-color: #CCC;
+    height: 40px;
+    align-items: flex-end;
+    border-top:  2px solid #bbb;
+    font-size: 17px;
+    margin-left: 10px;
+}
+footer{
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+    background-color: #CCC;
+    border-top: 2px solid #bbb;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.box1{
+    margin-left: 10px;
+}
+.box2{
+    margin-right: 10px;
+}
